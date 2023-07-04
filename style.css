@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+.canvas {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+
+span {
+    flex-direction: row;
+    margin: 20px;
+    width: 150px;
+    height: 150px;
+    border: 1px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+span#grey {
+    background-color: grey;
+}
+
+span#blue {
+    background-color: blue;
+}
+
+span#yellow {
+    background-color: yellow;
+}
+
+span#white {
+    background-color: white;
+}
+
+span#brown {
+    background-color: brown;
+}
+
+span#aqua {
+    background-color: aqua;
+}
+
+span#green {
+    background-color: green;
+}
